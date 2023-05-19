@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE36392229CBB1C70072B7F7 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36392129CBB1C70072B7F7 /* ContentView2.swift */; };
 		AE85615029C7C874003C8B27 /* Indoor_NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85614F29C7C874003C8B27 /* Indoor_NavigationApp.swift */; };
 		AE85615229C7C874003C8B27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85615129C7C874003C8B27 /* ContentView.swift */; };
 		AE85615429C7C876003C8B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE85615329C7C876003C8B27 /* Assets.xcassets */; };
 		AE85615729C7C876003C8B27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE85615629C7C876003C8B27 /* Preview Assets.xcassets */; };
+		AE85616629CB38A4003C8B27 /* PlaceIdentifyModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE85616529CB38A4003C8B27 /* PlaceIdentifyModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE36392129CBB1C70072B7F7 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		AE85614C29C7C874003C8B27 /* Indoor Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indoor Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE85614F29C7C874003C8B27 /* Indoor_NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_NavigationApp.swift; sourceTree = "<group>"; };
 		AE85615129C7C874003C8B27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE85615329C7C876003C8B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE85615629C7C876003C8B27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE85616529CB38A4003C8B27 /* PlaceIdentifyModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = PlaceIdentifyModel.mlmodel; path = "../../../../Desktop/Images Dataset/3/PlaceIdentifyModel.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			children = (
 				AE85614F29C7C874003C8B27 /* Indoor_NavigationApp.swift */,
 				AE85615129C7C874003C8B27 /* ContentView.swift */,
+				AE36392129CBB1C70072B7F7 /* ContentView2.swift */,
 				AE85615329C7C876003C8B27 /* Assets.xcassets */,
+				AE85616529CB38A4003C8B27 /* PlaceIdentifyModel.mlmodel */,
 				AE85615529C7C876003C8B27 /* Preview Content */,
 			);
 			path = "Indoor Navigation";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE85615229C7C874003C8B27 /* ContentView.swift in Sources */,
+				AE36392229CBB1C70072B7F7 /* ContentView2.swift in Sources */,
 				AE85615029C7C874003C8B27 /* Indoor_NavigationApp.swift in Sources */,
+				AE85616629CB38A4003C8B27 /* PlaceIdentifyModel.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = 2VK9NXPZCK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera permissions are requried to access all features of the App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = 2VK9NXPZCK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera permissions are requried to access all features of the App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

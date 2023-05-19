@@ -1,16 +1,9 @@
-//
-//  ContentView.swift
-//  Indoor Navigation
-//
-//  Created by Shikhar Kumar on 20/03/23.
-//
-
 import SwiftUI
 import CoreML
 import Vision
 import AVFoundation
 
-struct CameraView: View {
+struct CameraView2: View {
     @State private var placeName: String = "Searching..."
     let model: VNCoreMLModel
     
@@ -52,7 +45,7 @@ struct CameraView: View {
     }
 }
 
-struct CameraPreview: UIViewRepresentable {
+struct CameraPreview2: UIViewRepresentable {
     typealias UIViewType = UIView
     
     var onImageCapture: (UIImage) -> Void
@@ -118,7 +111,7 @@ struct CameraPreview: UIViewRepresentable {
     }
 }
 
-struct ContentView: View {
+struct ContentView2: View {
     let model: VNCoreMLModel
     
     init() {
@@ -136,8 +129,8 @@ struct ContentView: View {
 
 
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView2_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView2()
     }
 }
